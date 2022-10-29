@@ -7,14 +7,14 @@ const Logo = () => {
       <div>
         <a
           href='#'
-          className='text-2xl font-bold p-1 relative bg-white rounded-full'
+          className='text-2xl font-bold p-2 relative bg-white rounded-full'
         >
           Gonza
-          <span className='absolute -left-3 top-2.5 -z-10'>
-            <RiCheckboxBlankCircleFill className='text-3xl text-violet-400 absolute left-1 bottom-1' />
+          <span className='absolute -left-3 top-2 -z-10'>
+            <RiCheckboxBlankCircleFill className='text-3xl text-violet-400 absolute left-1 bottom-0.5' />
             <RiCheckboxBlankCircleFill className='text-3xl text-primary' />
           </span>
-          <span className='text-primary text-5xl' style={{'line-height': 0}}>.</span>
+          <span className='text-primary text-3xl' style={{'line-height': 0}}>.</span>
           fl
         </a>
       </div>
