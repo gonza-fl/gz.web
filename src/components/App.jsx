@@ -12,19 +12,22 @@ function App() {
     };
   }, []);
 
-  return !IsLoad ? (
-    <>
+  return true ? (
+    <div
+      className='bg-slate-900 bg-center bg-cover'
+      style={{
+        backgroundImage: 'url(https://i.postimg.cc/prPx16X7/newbg.jpg)',
+      }}
+    >
       <Header />
       <Hero />
-    </>
-  ) : (
-    <div className='h-100 w-100 flex justify-center align-center'>
-      <progress
-        className='nes-progress is-pattern w-50'
-        value='90'
-        max='100'
-      ></progress>
     </div>
+  ) : (
+    <progress
+      className='nes-progress is-pattern w-50'
+      value='90'
+      max='100'
+    ></progress>
   );
 }
 

@@ -7,10 +7,12 @@ const Header = () => {
   const [menuVisible, setMenuVisible] = useState(false);
 
   return (
-    <header className='flex items-center justify-between p-6 h-[10vh]'>
-      <Logo />
-      <Nav menuVisible={menuVisible} />
-      <MenuButton menuVisible={menuVisible} setMenuVisible={setMenuVisible} />
+    <header className='sticky top-0'>
+      <div className='flex justify-around p-10'>
+        <Logo />
+        <Nav menuVisible={menuVisible} />
+        <MenuButton menuVisible={menuVisible} setMenuVisible={setMenuVisible} />
+      </div>
     </header>
   );
 };
