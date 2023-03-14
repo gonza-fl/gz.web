@@ -13,15 +13,10 @@ function App() {
   }, []);
 
   return true ? (
-    <div
-      className='bg-slate-900 bg-center bg-cover'
-      style={{
-        backgroundImage: 'url(https://i.postimg.cc/prPx16X7/newbg.jpg)',
-      }}
-    >
+    <>
       <Header />
       <Hero />
-    </div>
+    </>
   ) : (
     <progress
       className='nes-progress is-pattern w-50'
