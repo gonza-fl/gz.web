@@ -6,14 +6,14 @@ const Logo = () => {
     <div className='z-20'>
       <a
         href='#'
-        className='text-xl md:text-2xl text-white font-bold relative rounded-full left-5'
+        className='bg-slate-900 p-2 text-xl md:text-2xl text-white font-bold relative rounded-full left-5'
         style={{
           textDecoration: 'none',
         }}
       >
         Gonza
-        <span className='absolute -left-5 top-1 -z-10'>
-          <RiCheckboxBlankCircleFill className='text-2xl text-violet-500 absolute left-2 bottom-1' />
+        <span className='absolute -left-[6%] top-[18%] -z-10'>
+          <RiCheckboxBlankCircleFill className='text-2xl text-violet-500 absolute left-[10%] bottom-[18%]' />
           <RiCheckboxBlankCircleFill className='text-3xl text-primary' />
         </span>
         <span className='text-primary text-3xl' style={{ 'line-height': 0 }}>

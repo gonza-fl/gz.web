@@ -8,7 +8,7 @@ const Header = () => {
 
   return (
     <header className='sticky top-0'>
-      <div className='flex justify-around p-10'>
+      <div className='flex justify-between p-10'>
         <Logo />
         <Nav menuVisible={menuVisible} />
         <MenuButton menuVisible={menuVisible} setMenuVisible={setMenuVisible} />
