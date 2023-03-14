@@ -7,7 +7,7 @@ const Header = () => {
   const [menuVisible, setMenuVisible] = useState(false);
 
   return (
-    <header className='sticky top-0'>
+    <header className='sticky top-0 bg-slate-900'>
       <div className='flex justify-between p-10'>
         <Logo />
         <Nav menuVisible={menuVisible} />
