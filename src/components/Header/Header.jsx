@@ -8,7 +8,7 @@ const Header = () => {
 
   return (
     <header className='sticky top-0 bg-slate-900'>
-      <div className='flex justify-between p-10'>
+      <div className='flex justify-between py-5 px-7'>
         <Logo />
         <Nav menuVisible={menuVisible} />
         <MenuButton menuVisible={menuVisible} setMenuVisible={setMenuVisible} />
